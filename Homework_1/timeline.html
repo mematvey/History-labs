@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хронология жизни Александра Невского</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .main-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 20px;
+            height: 100%;
+            width: 4px;
+            background: #27ae60; /* Зеленый цвет линии */
+            -webkit-print-color-adjust: exact; /* Заставляет линию печататься */
+            color-adjust: exact; /* Стандартное свойство для других браузеров */
+        }
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 22px; /* Выравнивание по центру заголовка */
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #fff;
+            border: 4px solid #27ae60; /* Зеленый цвет узла */
+            z-index: 1;
+            -webkit-print-color-adjust: exact; /* Также добавляем для узлов */
+             color-adjust: exact;
+        }
+        .timeline-content {
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 6px;
+            position: relative;
+            -webkit-print-color-adjust: exact; /* И для фона карточек, чтобы он тоже печатался */
+             color-adjust: exact;
+        }
+        .timeline-header {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .timeline-header .date {
+            font-weight: bold;
+            color: #229954; /* Темно-зеленый цвет даты */
+        }
+        .timeline-header .title {
+            font-weight: normal;
+        }
+        .timeline-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        .category-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 40px 0 20px 0;
+            padding-left: 55px;
+            position: relative;
+        }
+
+        /* --- НОВЫЙ БЛОК ДЛЯ ИСПРАВЛЕНИЯ ПЕЧАТИ --- */
+        @media print {
+            .timeline-item {
+                page-break-inside: avoid; /* Запрещает разрыв страницы ВНУТРИ этого элемента */
+            }
+            .category-title {
+                page-break-after: avoid; /* Запрещает разрыв страницы сразу ПОСЛЕ заголовка */
+            }
+        }
+        /* --- КОНЕЦ НОВОГО БЛОКА --- */
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Хронология жизни и правления Александра Невского</h1>
+        <img src="https://cdn.culture.ru/images/d36159ef-b50c-59e0-bb5d-013032eacc37" alt="Князь Александр Невский" class="main-image">
+
+        <div class="timeline">
+            
+            <h2 class="category-title">Ранние годы и начало княжения</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1221 год:</span> <span class="title">Рождение</span></h3>
+                    <p>В Переяславле-Залесском в семье князя Ярослава Всеволодовича и княгини Феодосии Мстиславны рождается сын Александр.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">31 мая 1223 года:</span> <span class="title">Битва на Калке</span></h3>
+                    <p>Происходит первое крупное столкновение русских князей с монголо-татарами. Хотя Александр не принимал в нем участия, это событие определило всю дальнейшую политическую обстановку на Руси.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">Около 1226 года:</span> <span class="title">Княжеский постриг</span></h3>
+                    <p>Александр вместе со старшим братом Федором проходит обряд посвящения в воины в Спасо-Преображенском соборе, что знаменует конец детства и начало ратного обучения.</p>
+                    <img src="https://cdn.azbyka.ru/deti/wp-content/uploads/2016/12/scrn_big_07.jpg" alt="Княжеский постриг" class="timeline-image">
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1228 год:</span> <span class="title">Первое наместничество</span></h3>
+                    <p>Отец оставляет семилетнего Александра и его брата наместниками в Новгороде. Их правление совпадает со страшным голодом и народными волнениями.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1233 год:</span> <span class="title">Статус наследника</span></h3>
+                    <p>Внезапно умирает старший брат Федор. 12-летний Александр становится главным наследником своего отца.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1234 год:</span> <span class="title">Первое боевое крещение</span></h3>
+                    <p>Участвует в походе отца на немецких рыцарей и в битве на реке Омовже (Эмбах), где русские войска одерживают победу. Битва происходит на льду, предвосхищая Ледовое побоище.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1236 год:</span> <span class="title">Начало самостоятельного правления</span></h3>
+                    <p>В возрасте 15 лет Александр становится полноправным князем Новгородским.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">Декабрь 1237 года:</span> <span class="title">Начало Батыева нашествия</span></h3>
+                    <p>Монголо-татары вторгаются в пределы Руси и стирают с лица земли город Рязань.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1238 год:</span> <span class="title">Падение Владимира</span></h3>
+                    <p>Монголы разоряют столицу Северо-Восточной Руси. В битве на реке Сити погибает великий князь Юрий Всеволодович, дядя Александра.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1239 год:</span> <span class="title">Женитьба и Укрепление границ</span></h3>
+                    <p>Александр вступает в брак с дочерью полоцкого князя Брячислава, укрепляя тем самым военно-политический союз с Полоцком. В этом же году он строит несколько пограничных крепостей по реке Шелони для защиты новгородских земель от набегов литовцев.</p>
+                    <img src="https://ioannkron.tltepar.ru/wp-content/uploads/2020/05/6-женитьба.jpg" alt="Женитьба Александра Невского" class="timeline-image">
+                </div>
+            </div>
+
+            <h2 class="category-title">Великие битвы и утверждение власти</h2>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">15 июля 1240 года:</span> <span class="title">Невская битва</span></h3>
+                    <p>Во главе небольшой дружины и ополчения Александр наносит внезапное и сокрушительное поражение шведскому отряду в устье реки Ижоры. Эта победа остановила шведскую экспансию и принесла князю почетное прозвище "Невский".</p>
+                    <img src="https://gbic.ucoz.ru/_nw/31/99616971.jpg" alt="Невская битва" class="timeline-image">
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1241 год:</span> <span class="title">Возвращение в Новгород и Освобождение Копорья</span></h3>
+                    <p>Вернувшись в Новгород по просьбе горожан, Александр немедленно начинает действовать против захвативших русские земли немецких рыцарей. Первым делом он стремительным штурмом берет и разрушает крепость Копорье, построенную рыцарями.</p>
+                    <img src="https://myslide.ru/documents_7/6e75ae5b7a473bff93b3006030830eef/img21.jpg" alt="Освобождение Копорья" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">Март 1242 года:</span> <span class="title">Освобождение Пскова</span></h3>
+                    <p>Объединив новгородские и владимирские дружины, Александр двинулся к Пскову. После короткой осады город был взят решительным штурмом, а рыцарский гарнизон уничтожен.</p>
+                    <img src="https://theslide.ru/img/tmb/7/642153/43b93da5c14fe2ab0f3741cbfbcba4a0-800x.jpg" alt="Освобождение Пскова" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">5 апреля 1242 года:</span> <span class="title">Ледовое побоище</span></h3>
+                    <p>На льду Чудского озера происходит решающее сражение, в котором Александр Невский полностью разгромил главные силы Ливонского ордена, применив тактическую хитрость с окружением рыцарского клина. Эта победа остановила экспансию Ордена на восток.</p>
+                    <img src="https://i.pinimg.com/originals/9f/f6/5b/9ff65babd1029ecc6a19aef9cfa19f4f.jpg" alt="Ледовое побоище" class="timeline-image">
+                </div>
+            </div>
+            
+            <h2 class="category-title">Великое княжение и дипломатия</h2>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1247 год:</span> <span class="title">Первая поездка в Орду</span></h3>
+                    <p>Вместе с младшим братом Андреем отправляется в ставку Батыя, а оттуда — в Каракорум для подтверждения прав на княжение.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1248-1249 годы:</span> <span class="title">Посольство от Папы Римского и отказ</span></h3>
+                    <p>Александр получает послание от папы Иннокентия IV с предложением принять католичество в обмен на помощь в борьбе с Ордой. В 1249 году он в вежливой, но твердой форме отвергает предложение папы, сохраняя верность православию.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=2270058a3b7e00c187bfb13f43eca81b_l-5300806-images-thumbs&n=13" alt="Посольство от Папы Римского" class="timeline-image">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1249 год:</span> <span class="title">Возвращение из Орды</span></h3>
+                    <p>Получает ярлык на разоренный Киев и "всю Русскую землю", в то время как его брат Андрей становится великим князем Владимирским.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1252 год:</span> <span class="title">Неврюева рать и ярлык на великое княжение</span></h3>
+                    <p>Брат Андрей вступает в конфликт с Ордой. Монголы присылают карательное войско ("Неврюева рать"). Андрей разбит и бежит в Швецию. Александр едет в Орду и получает ярлык на великое княжение Владимирское, становясь главным князем на Руси.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1256 год:</span> <span class="title">Поход в финские земли</span></h3>
+                    <p>Возглавляет превентивный поход в землю финского племени емь (Тавастия), чтобы помешать шведам строить там крепости и закрепиться у границ Руси.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1257-1259 годы:</span> <span class="title">Перепись и усмирение Новгорода</span></h3>
+                    <p>Приезжает в Новгород с ордынскими чиновниками для проведения переписи населения ("числа") с целью обложения данью. В 1259 году в Новгороде вспыхивает восстание против переписи. Александр жесткими мерами заставляет город подчиниться, тем самым спасая его от карательного похода монголов.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1262 год:</span> <span class="title">Восстания и последняя поездка в Орду</span></h3>
+                    <p>В городах Северо-Восточной Руси (Ростов, Суздаль, Ярославль) вспыхивают народные восстания, в ходе которых были перебиты ордынские откупщики дани. Чтобы предотвратить карательный поход и смягчить гнев хана Берке, Александр отправляется в свою последнюю дипломатическую миссию в Сарай.</p>
+                </div>
+            </div>
+
+            <h2 class="category-title">Последние годы и кончина</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1262-1263 годы:</span> <span class="title">Переговоры в Орде</span></h3>
+                    <p>Александр проводит в ставке хана почти год, ведя сложные переговоры. Ему удается отговорить хана от посылки карательного войска и освободить русских воинов от обязанности участвовать в военных походах монголов.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=022b324f0e4345f302e5d08cf4fd5274_l-5238267-images-thumbs&n=13" alt="Переговоры в Орде" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">14 ноября 1263 года:</span> <span class="title">Принятие схимы и смерть</span></h3>
+                    <p>Чувствуя приближение смерти, в Городце на Волге Александр принимает высший монашеский постриг (схиму) с именем Алексий и в тот же день умирает.</p>
+                    <img src="https://proza.ru/pics/2024/09/27/1320.jpg" alt="Принятие схимы и смерть" class="timeline-image">
+                </div>
+            </div>
+            
+            <h2 class="category-title">Наследие</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1547 год:</span> <span class="title">Канонизация</span></h3>
+                    <p>Русская православная церковь причисляет Александра Невского к лику святых в чине благоверного князя.</p>
+                    <img src="https://www.air-gun.ru/social/picturs/0/15/96/36_opt.jpg" alt="Канонизация" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1710 год:</span> <span class="title">Основание Александро-Невской лавры</span></h3>
+                    <p>Петр I в новой столице, Санкт-Петербурге, основывает монастырь в честь своего небесного покровителя.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=7e359724e496f06047efa90a66a9d105_l-4273-images-thumbs&n=13" alt="Основание Александро-Невской лавры" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">30 августа 1724 года:</span> <span class="title">Перенесение мощей</span></h3>
+                    <p>По указу Петра I мощи святого князя торжественно переносят из Владимира в Санкт-Петербург, в Александро-Невскую лавру.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=5075af4db523b71f4a3eeb5b0863d77cb2c82c1d-5287252-images-thumbs&n=13" alt="Перенесение мощей" class="timeline-image">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">21 мая 1725 года:</span> <span class="title">Учреждение ордена</span></h3>
+                    <p>Императрица Екатерина I учреждает одну из высших наград Российской империи — Императорский Орден Святого Благоверного Князя Александра Невского.</p>
+                    <img src="https://topwar.ru/uploads/posts/2014-10/1414452977_badge_to_order_st_alexander_nevsky.jpg" alt="Учреждение ордена" class="timeline-image">
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">1938 год:</span> <span class="title">Фильм Сергея Эйзенштейна</span></h3>
+                    <p>Выходит на экраны фильм "Александр Невский", который сформировал канонический образ князя-патриота и воина в массовом сознании.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">29 июля 1942 года:</span> <span class="title">Учреждение советского ордена</span></h3>
+                    <p>В разгар Великой Отечественной войны в СССР учреждается военный орден Александра Невского для награждения командного состава.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-header"><span class="date">2008 год:</span> <span class="title">"Имя России"</span></h3>
+                    <p>В результате общенационального голосования в рамках телепроекта "Имя России" Александр Невский был выбран величайшей исторической личностью в истории страны.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

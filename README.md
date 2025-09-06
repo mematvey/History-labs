@@ -4,5 +4,5 @@
 
 Ниже навигация по домашним заданиям:
 *   **Домашнее задание №1: Таймлайн жизни Александра Невского**
-    *   [Интерактивная HTML-страница](Homework_1/timeline.html)
+    *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_1/timeline.html)
     *   [Версия в формате PDF](Homework_1/timeline.pdf)

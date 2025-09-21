@@ -7,5 +7,5 @@
     *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_1/timeline.html)
     *   [Версия в формате PDF](Homework_1/timeline.pdf)
 
- *   **Домашнее задание №2: Таймлайн периода Сутного времени**
+*   **Домашнее задание №2: Таймлайн периода Сутного времени**
     *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_2/timeline.html)

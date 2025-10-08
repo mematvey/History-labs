@@ -9,3 +9,6 @@
 
 *   **Домашнее задание №2: Таймлайн периода Сутного времени**
     *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_2/timeline.html)
+
+*   **Домашнее задание №3: Газета времен Петра I**
+    *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_3/newspaper.html)

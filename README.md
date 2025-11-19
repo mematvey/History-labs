@@ -12,3 +12,6 @@
 
 *   **Домашнее задание №3: Газета времен Петра I**
     *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_3/newspaper.html)
+ 
+*   **Домашнее задание №4: Русские эмигранты первой волны**
+    *   [Интерактивная HTML-страница](https://mematvey.github.io/History-labs/Homework_4/homework.html)

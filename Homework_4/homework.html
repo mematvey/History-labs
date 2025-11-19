@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Первая волна русской эмиграции</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .person-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        @media (max-width: 768px) {
+            .person-card {
+                flex-direction: column;
+            }
+        }
+        
+        .photo-column {
+            flex: 0 0 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .photo-block {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        .photo-block img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .photo-caption {
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .info-column {
+            flex: 1;
+        }
+        h2.person-name {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 1.8em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section-header {
+            font-weight: 700;
+            color: #b7410e;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        
+        .info-text {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        ul {
+            margin: 5px 0 5px 20px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+
+        .location-tag {
+            background-color: #e8f4f8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #0056b3;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Личности русской эмиграции первой волны</h1>
+
+    <div class="person-card">
+        <div class="photo-column">
+            <div class="photo-block">
+                <img src="https://www.domrz.ru/upload/iblock/1d5/rh3un2ac792ie7kdy1k3jciu507ar9i0.jpg" alt="Н.А. Оболенский">
+            </div>
+        </div>
+        <div class="info-column">
+            <h2 class="person-name">Оболенский Николай Александрович</h2>
+            
+            <div class="section-header">• Краткая биография</div>
+            <div class="info-text">
+                Происходил из древнего княжеского рода, крестник вдовствующей императрицы Марии Федоровны. Окончил Пажеский корпус. Во время Второй мировой войны, живя во Франции, стал лейтенантом французской армии и активным участником движения Сопротивления. Работая переводчиком на строительстве немецких укреплений («Атлантический вал»), передавал секретные данные союзникам и помогал советским военнопленным. Был арестован гестапо, прошел через концлагерь Бухенвальд.
+                <br><br>
+                В поздние годы кардинально изменил жизнь: принял сан священника (1963), служил протоиереем в соборе Александра Невского в Париже, активно занимался благотворительностью, посещая тюрьмы и больницы.
+            </div>
+
+            <div class="section-header">• Причины эмиграции</div>
+            <div class="info-text">
+                Неприятие революционных событий 1917 года и угроза преследования дворянства. Эмигрировал вместе с родителями в 1917 году через Финляндию, спасаясь от хаоса, охватившего Петроград.
+            </div>
+
+            <div class="section-header">• В каких странах проживал</div>
+            <div class="info-text">
+                Швейцария (учился в университете), Бельгия, Франция (основное место жизни).
+            </div>
+
+            <div class="section-header">• Где похоронен</div>
+            <div class="info-text">
+                Франция, город Сент-Женевьев-де-Буа (знаменитое русское кладбище).
+            </div>
+        </div>
+    </div>
+
+    <div class="person-card">
+        <div class="photo-column">
+            <div class="photo-block">
+                <img src="https://www.domrz.ru/upload/iblock/039/03917a57f4eb6cea8b530012d6b85592.jpg" alt="П.Н. Врангель">
+            </div>
+        </div>
+        <div class="info-column">
+            <h2 class="person-name">Врангель Пётр Николаевич</h2>
+
+            <div class="section-header">• Краткая биография</div>
+            <div class="info-text">
+                Легендарный военачальник («Черный барон»), генерал-лейтенант. Имел редкое сочетание образования: гражданское (горный инженер) и военное (Академия Генштаба). Герой Первой мировой войны. Стал одним из главных лидеров Белого движения на Юге России.
+                <br><br>
+                Вошел в историю как организатор «Крымской эвакуации» (1920 г.): сумел вывезти из Крыма на 126 судах около 150 тысяч человек, спасая их от красного террора. В эмиграции создал Русский общевоинский союз (РОВС) — мощнейшую организацию для сохранения кадров русской армии за рубежом.
+            </div>
+
+            <div class="section-header">• Причины эмиграции</div>
+            <div class="info-text">
+                Военное и политическое поражение Белого движения в Гражданской войне. Был вынужден покинуть Россию в ноябре 1920 года вместе с остатками своей армии под натиском наступающих войск Красной армии.
+            </div>
+
+            <div class="section-header">• В каких странах проживал</div>
+            <div class="info-text">
+                Турция (Константинополь), Королевство сербов, хорватов и словенцев (ныне Сербия), Бельгия (Брюссель).
+            </div>
+
+            <div class="section-header">• Где похоронен</div>
+            <div class="info-text">
+                Сербия, город Белград, русская церковь Святой Троицы (был перезахоронен туда из Брюсселя согласно завещанию).
+            </div>
+        </div>
+    </div>
+
+    <div class="person-card">
+        <div class="photo-column">
+            <div class="photo-block">
+                <img src="https://www.domrz.ru/upload/iblock/86a/9zxjqdnk37i394e61xkyu3zltx2bw8cu.jpg" alt="Н.М. Попов">
+            </div>
+        </div>
+        <div class="info-column">
+            <h2 class="person-name">Попов Николай Михайлович</h2>
+
+            <div class="section-header">• Краткая биография</div>
+            <div class="info-text">
+                Выдающийся ученый-психиатр, ученик И.П. Мержеевского и сподвижник В.М. Бехтерева. В Российской империи возглавлял кафедры в ведущих университетах (Варшавском, Казанском, Новороссийском). Был прогрессивным деятелем: добился разрешения женщинам обучаться на медицинских факультетах.
+                <br><br>
+                В эмиграции не оставил науку и стал профессором Софийского университета. Фактически создал болгарскую школу психиатрии «с нуля», организовав кафедру и написав первые учебники по психопатологии на болгарском языке.
+            </div>
+
+            <div class="section-header">• Причины эмиграции</div>
+            <div class="info-text">
+                Гражданская война и невозможность научной работы в условиях разрухи. Был эвакуирован из Одессы в 1920 году перед приходом большевиков.
+            </div>
+
+            <div class="section-header">• В каких странах проживал</div>
+            <div class="info-text">
+                Турция (остров Принкипо), Болгария.
+            </div>
+
+            <div class="section-header">• Где похоронен</div>
+            <div class="info-text">
+                Болгария, город София, Центральное городское кладбище (могила утрачена).
+            </div>
+        </div>
+    </div>
+
+    <div class="person-card">
+        <div class="photo-column">
+            <div class="photo-block">
+                <img src="https://www.domrz.ru/upload/iblock/1ea/1ea9f258cd4d439cd72a6efe9a1b8beb.jpg" alt="И.И. Сикорский">
+            </div>
+        </div>
+        <div class="info-column">
+            <h2 class="person-name">Сикорский Игорь Иванович</h2>
+
+            <div class="section-header">• Краткая биография</div>
+            <div class="info-text">
+                Гениальный авиаконструктор. Еще в России (1913 г.) создал первые в мире многомоторные самолеты-гиганты «Русский витязь» и «Илья Муромец», опередив свое время.
+                <br><br>
+                В эмиграции в США, начав с преподавания математики, основал собственную корпорацию (Sikorsky Aero Engineering). Стал «отцом» мирового вертолетостроения, запустив первый серийный вертолет. Также создал знаменитые летающие лодки (самолеты-амфибии), освоившие трансатлантические перелеты. Занимался философией и богословием, возглавлял Толстовский фонд помощи эмигрантам.
+            </div>
+
+            <div class="section-header">• Причины эмиграции</div>
+            <div class="info-text">
+                Угроза жизни. Как известный конструктор, работавший на царскую армию, мог стать жертвой красного террора. В начале 1918 года выехал из России, так как чекисты уже внесли его в расстрельные списки.
+            </div>
+
+            <div class="section-header">• В каких странах проживал</div>
+            <div class="info-text">
+                Франция, США.
+            </div>
+
+            <div class="section-header">• Где похоронен</div>
+            <div class="info-text">
+                США, штат Коннектикут, город Николс, кладбище Сент-Джонс.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
